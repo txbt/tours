@@ -1,0 +1,2 @@
+# tours
+post type tours
