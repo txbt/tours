@@ -50,7 +50,7 @@ get_header();
       <div class="txbt-tour-page-content">
         <div class="row">
             <div class="col-xs-12 col-md-4">
-              <?php the_post_thumbnail('tour_page'); ?>
+              <?php the_post_thumbnail('tour_page', $size = 'large',); ?>
             </div>
 
             <div class="col-xs-12 col-md-8">
