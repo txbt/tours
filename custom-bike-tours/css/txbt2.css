@@ -1,0 +1,114 @@
+/*
+Custom Texas Bike Tours Style
+*/
+
+
+.txbt-tour-page-content { padding: 2% 0; }
+.txbt_tour_image { padding: 2% 2%; width:45%; float:left;}
+.txbt_tour_info { padding: 2% 0%; width:45%; float:left;}
+/*.txbt_tour_image img { width:90%;}*/
+.txbt-tour_rating img { border:0px; box-shadow:none; vertical-align:middle;}
+
+.txbt_tour_info h1 { font-size:1.6em; font-weight:bold;}
+
+.clear { clear:both;}
+
+
+
+.customize_btn input[type=checkbox] {
+display:none;
+}
+
+.customize_btn li { display:inline-block;}
+input#choice_38_1[type=checkbox] + label
+{
+background: #999 url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#choice_38_1[type=checkbox]:checked + label
+{
+background: #0080FF url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#choice_38_2[type=checkbox] + label
+{
+background: #999 url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#choice_38_2[type=checkbox]:checked + label
+{
+background: red url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+
+box-shadow: inset 0px 0px 10px 0px #ABABAB,0px -1px 5px 1px #DDDDDD;
+-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,0px -1px 5px 1px #DDDDDD;
+-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,0px -1px 5px 1px #DDDDDD;
+-o-box-shadow: inset 0px 0px 10px 0px #ABABAB,0px -1px 5px 1px #DDDDDD;
+
+
+}
+
+
+input#choice_38_3[type=checkbox] + label
+{
+background: #999 url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#choice_38_3[type=checkbox]:checked + label
+{
+background: green url("http://www.texasbiketours.com/wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png");
+height: 160px;
+width: 160px;
+display:inline-block;
+padding: 0 0 0 0px;
+
+}
+
+#l3 { background: green url("wp-content/plugins/custom-bike-tours/images/cycling-mountain-bike-160.png"); width:160px; height:160px; display:block; }
+
+/* form css */
+.rent, .food, #custom-tour-form, .gform_previous_button, .gform_next_button{ display:none;}
+
+.gform_page { padding:20px;/* display:none;*/}
+
+#gform_submit_button_7 {position:relative; top:10px; left:100px;}
+
+#field_11_55 { display:none;}
+
+
+
+.page-choices, .page-submit, #gform_submit_button_7_1 {display:block!important;}
+
+.page-choices a { width:20%; margin-right:1.5%; float:left;}
+
+
+#touract { margin:20px 0; border-top:1px solid #ccc; padding:20px 0; text-align:center;}
+.gform_page_footer { border-top:none;}
+
+.page-culinary, .page-rentals, .page-assistance { background-color:#ccc;}
+
+.page-submit { text-align:center;}
+.page-submit input {  text-transform:uppercase; padding:10px;}
+
+#tour-details { display:none;}
+
