@@ -135,7 +135,7 @@ get_header();
 
 
         <div class="txbt-tour_excerpt">
-          <hr /><h2 class="txbt-tour_title" style="text-align:center;">Tour Description</h2>
+          <hr /><h2 class="txbt-tour_title" style="text-align:center;">Tour Description 2</h2>
           <?php the_content(); ?>
         </div>
         <hr />

@@ -47,18 +47,10 @@ get_header();
       
       ?>
 
-      <div class="txbt-tour-page-content container">
+      <div class="txbt-tour-page-content container-fluid">
         <div class="row">
 
           <div class="col-12 text-center">
-
-            <h1 class="txbt-tour_title pb-2">
-              <?php echo get_the_title( $tourID); ?>
-            </h1>
-
-            <div class="col-12 pb-2">
-              <?php the_post_thumbnail('tour_page'); ?>
-            </div>
 
             <?php
       
@@ -79,8 +71,11 @@ get_header();
               ?>
 
                 <div class="row">
+                  <div class="col-12 pb-2">
+                    <?php the_post_thumbnail( $size = 'full' ); ?>
+                  </div>
 
-                  <!-- Display Tour Info Hours/Distance -->
+                  <!-- Display Tour Info Hours/Type/Distance -->
 
                     <div class="col-12 col-sm-11 col-md-8 col-lg-5 mx-auto text-center">
                       <div class="row align-items-end pb-2">
@@ -113,16 +108,11 @@ get_header();
                     </div>
 
                     <style>
-                      .tour-label { font-size:.75em; padding:10px 0; text-transform: uppercase}
-                      .tour-vitals { font-size:1.4em;}
-                      .tour-type .tour-vitals { font-size:.8em; text-transform: capitalize;}
-                      .hour { text-transform: uppercase; font-size:.5em;}
-                      .tour-duration { border-right: 1px solid #999; }
-                      .tour-distance { border-left: 1px solid #999; }
+
                     </style>
 
                   <div class="col-12">
-                    <a class="btn btn-primary btn-lg" id="rent" href="/book-tour">REQUEST A TOUR
+                    <a class="btn btn-primary btn-lg" id="rent" href="/book-tour/26/26">REQUEST A TOUR
                     </a>
                   </div>
 
@@ -135,19 +125,24 @@ get_header();
 
 
         </div>
-
+</div>
         <!-- / txbt_tour_info -->
+      <div class="container">
 
         <div class="tour-content row">
           <div class="col-12 pb-2">
             <hr />
-            <h2 class="txbt-tour_title">Tour Description</h2>
+            <h1 class="txbt-tour_title pb-2">
+              <?php echo get_the_title( $tourID); ?></h1>
+
             <?php the_content(); ?>
           </div>
           
         </div>
+</div>
+      <div class="container">
 
-        <div class="tour-reviews row">
+<div class="tour-reviews row">
           <div class="col-12 pb-2">
             <hr />
 
@@ -241,10 +236,10 @@ get_header();
             <a id="allreviews_btn" class="btn btn-secondary btn-lg" href="<?php echo get_site_url(); ?>/tour" >View All Tours</a>
           </div>
 
-      </div>
+      
 
       <?php endwhile; // end of the loop. ?>
-
+</div>
     
 
       

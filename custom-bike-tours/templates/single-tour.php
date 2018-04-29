@@ -57,9 +57,6 @@ get_header();
 
               <div class="txbt-tour_excerpt">
 
-                <h1 class="txbt-tour_title">
-                  <?php echo get_the_title( $tourID); ?>
-                </h1>
                 <!-- <?php the_excerpt(); ?>
             
             <div class="clear txbt-moreinfo-button">
@@ -139,7 +136,10 @@ get_header();
 
 
         <div class="txbt-tour_excerpt">
-          <hr /><h2 class="txbt-tour_title" style="text-align:center;">Tour Description</h2>
+
+          <h1 class="txbt-tour_title">
+            <?php echo get_the_title( $tourID); ?></h1>          
+          <hr /><h2 class="txbt-tour_title" style="text-align:center;">Tour-Description</h2>
           <?php the_content(); ?>
         </div>
         <hr />
